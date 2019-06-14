@@ -20,7 +20,7 @@ $(document).ready(function(){
   });
 
   $('li').on('click', function(){
-      var item = $(this).text().replace(/ /g, "-");
+      var item = $(this).text().trim().replace(/ /g, "-")
       $.ajax({
         type: 'DELETE',
         url: '/todo/' + item,
@@ -32,3 +32,34 @@ $(document).ready(function(){
   });
 
 });
+// var axios = require('axios');
+
+// window.onload=function(){
+//   console.log('works');
+//   let button = document.getElementsByTagName('button');
+//   let li = document.getElementsByTagName('li');
+
+//   button[0].addEventListener("click", function () {
+//     let value = document.getElementsByTagName('input').value ;
+//     let todo = {item:value};
+
+//     axios({
+//       method: 'post',
+//       url: '/todo',
+//       data:todo
+//     })
+//   })
+
+    
+    //   li.addEventListener("click", function () {
+    //   let value = document.getElementsByTagName('input').value ;
+    //   let todo = {item:value};
+  
+    //   axios({
+    //     method: 'delete',
+    //     url: '/todo',
+    //     data:todo
+    //   });
+    // })
+
+// }
