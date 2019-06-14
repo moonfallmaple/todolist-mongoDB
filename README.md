@@ -1,9 +1,15 @@
-# node-js-playlist
-CSS and asset files for the Net Ninja YouTube nodejs playlist
+# Todolists app
 
-The final project code can be found in the public/assests folder of this repo
+The primary purpose for this project was to gain exposure to Node.js+ Express + MongoDB 
 
-If you have been following the tutorial, code for each and every lesson is added in the Practice folder so you can directly download and check.
-All files have been tested.
+## Tech stack:
 
-If more files for  .\Practice\ should be added. They will be added very soon.
+- Client Side: HTML + JS + ejs 
+
+- Server Side: Node.js+ Express + MongoDB 
+
+If you also want to make such app, you can read [Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/featured)'s tutorial for nodejs playlist
+
+Really appreciate his tutorial.  
+
+
